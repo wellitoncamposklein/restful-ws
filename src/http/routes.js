@@ -1,9 +1,4 @@
 const routes = (server) => {
-    server.get('/', (req, res, next) => {
-        res.send('Enjoy the silence!')
-        next()
-    })
-
     server.get('categoria', (req, res, next) => {
         res.send(['1', 'lalala'])
         next()
@@ -21,6 +16,11 @@ const routes = (server) => {
     //     res.send()
     //     next()
     // })
+
+    server.get('/', (req, res, next) => {
+        res.send('Enjoy the silence!')
+        next()
+    })
 }
 
 module.exports = routes
