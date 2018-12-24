@@ -17,30 +17,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/mysql/categories.js">
+        <entry file="file://$PROJECT_DIR$/src/http/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="225">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
-                <element signature="e#115#421#0" />
-                <element signature="e#556#580#0" />
-                <element signature="e#1107#1131#0" />
+                <element signature="e#124#277#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/http/routes.js">
+        <entry file="file://$PROJECT_DIR$/src/services/mysql/categories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-              <folding>
-                <element signature="e#124#277#0" />
-                <element signature="e#329#410#0" />
-                <element signature="e#580#621#0" />
-                <element signature="e#844#885#0" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="46" column="109" selection-start-line="46" selection-start-column="109" selection-end-line="46" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -58,8 +50,8 @@
         <option value="$PROJECT_DIR$/src/server/cors.js" />
         <option value="$PROJECT_DIR$/src/server/index.js" />
         <option value="$PROJECT_DIR$/src/services/mysql/index.js" />
-        <option value="$PROJECT_DIR$/src/services/mysql/categories.js" />
         <option value="$PROJECT_DIR$/src/http/routes.js" />
+        <option value="$PROJECT_DIR$/src/services/mysql/categories.js" />
       </list>
     </option>
   </component>
@@ -162,12 +154,12 @@
       <workItem from="1545417358755" duration="33000" />
       <workItem from="1545417414923" duration="612000" />
       <workItem from="1545418468797" duration="6357000" />
-      <workItem from="1545643201648" duration="4246000" />
+      <workItem from="1545643201648" duration="4799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12233000" />
+    <option name="totallyTimeSpent" value="12786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="25" width="1329" height="743" extended-state="6" />
@@ -276,28 +268,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/mysql/categories.js">
+    <entry file="file://$PROJECT_DIR$/src/http/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="225">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
-            <element signature="e#115#421#0" />
-            <element signature="e#556#580#0" />
-            <element signature="e#1107#1131#0" />
+            <element signature="e#124#277#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/routes.js">
+    <entry file="file://$PROJECT_DIR$/src/services/mysql/categories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="e#124#277#0" />
-            <element signature="e#329#410#0" />
-            <element signature="e#580#621#0" />
-            <element signature="e#844#885#0" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="46" column="109" selection-start-line="46" selection-start-column="109" selection-end-line="46" selection-end-column="109" />
         </state>
       </provider>
     </entry>
