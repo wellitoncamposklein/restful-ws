@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42544b28-fa57-4e00-b92b-30a205e68a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/mysql/tests/users.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/mysql/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mysql/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mysql/tests/auth.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mysql/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/mysql/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +36,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/mysql/users.js">
+        <entry file="file://$PROJECT_DIR$/src/http/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+            <state relative-caret-position="75">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/mysql/tests/users.test.js">
+        <entry file="file://$PROJECT_DIR$/src/services/mysql/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/mysql/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -81,9 +92,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/server/cors.js" />
         <option value="$PROJECT_DIR$/src/server/index.js" />
-        <option value="$PROJECT_DIR$/src/http/routes.js" />
         <option value="$PROJECT_DIR$/src/services/mysql/categories.js" />
-        <option value="$PROJECT_DIR$/src/services/mysql/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -94,6 +103,10 @@
         <option value="$PROJECT_DIR$/src/services/mysql/tests/categories.test.js" />
         <option value="$PROJECT_DIR$/src/services/mysql/tests/users.test.js" />
         <option value="$PROJECT_DIR$/src/services/mysql/users.js" />
+        <option value="$PROJECT_DIR$/src/services/mysql/tests/auth.test.js" />
+        <option value="$PROJECT_DIR$/src/services/mysql/index.js" />
+        <option value="$PROJECT_DIR$/src/services/mysql/auth.js" />
+        <option value="$PROJECT_DIR$/src/http/routes.js" />
       </list>
     </option>
   </component>
@@ -127,6 +140,12 @@
               <item name="restful-ws" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-ws" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restful-ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restful-ws" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-ws" type="b2602c69:ProjectViewProjectNode" />
@@ -174,8 +193,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/services/mysql/tests" />
       <recent name="$PROJECT_DIR$/src/services/mysql" />
+      <recent name="$PROJECT_DIR$/src/services/mysql/tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -205,12 +224,12 @@
       <workItem from="1545417358755" duration="33000" />
       <workItem from="1545417414923" duration="612000" />
       <workItem from="1545418468797" duration="6357000" />
-      <workItem from="1545643201648" duration="12774000" />
+      <workItem from="1545643201648" duration="15293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20761000" />
+    <option name="totallyTimeSpent" value="23280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="25" width="1329" height="743" extended-state="6" />
@@ -298,16 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="e#124#277#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -350,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/mysql/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/mysql/tests/setup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -380,15 +382,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/mysql/tests/users.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="247">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/mysql/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="93" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+        <state>
+          <caret selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mysql/tests/auth.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mysql/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mysql/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
