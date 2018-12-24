@@ -10,6 +10,13 @@ const del = () => categories.del(1)
 test.beforeEach(() => connection.query('TRUNCATE TABLE categories'))
 test.after.always(() => connection.query('TRUNCATE TABLE categories'))
 
+test('List categories', async t => {
+    await create()
+    const list = await categories.all()
+    t.is(list.categories.length, 1)
+    t.is(list.categories[0].name, 'category-save')
+})
+
 test('Creation category', async t => {
     const result = await create()
     t.is(result.category.name, 'category-save')
